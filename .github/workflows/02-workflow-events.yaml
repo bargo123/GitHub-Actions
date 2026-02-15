@@ -7,5 +7,3 @@ jobs:
         steps:
             - name: Show the trigger
               run: echo ${{ github.event_name }}
-
-
